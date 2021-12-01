@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bf3a38">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NoPass"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="70sp"
+        android:id="@+id/textView"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/textView"
+        android:src="@drawable/logo"
+        android:layout_above="@+id/buttonScan"
+        android:layout_margin="50dp"/>
+
+    <TextView
+        android:id="@+id/textViewPowered"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonScan"
+        android:gravity="center"
+        android:layout_marginBottom="170dp"
+        android:textColor="#dedede"
+        android:textSize="16sp"
+        android:text="powered" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/buttonScan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:scaleType="center"
+        android:clickable="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:fabCustomSize="70dp"
+        app:srcCompat="@drawable/ic_barcode_scan_black_48dp" />
+
+</RelativeLayout>
