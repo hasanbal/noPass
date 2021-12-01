@@ -18,7 +18,7 @@ Also, this project is our Hackathon Project and we placed 1st among Turkey in th
   
 ## Screenshots:
 
-![](ss1.png)
-![](ss2.png)
-![](ss3.png)
+![](browser_extension/ss1.png)
+![](browser_extension/ss2.png)
+![](browser_extension/ss3.png)
  
